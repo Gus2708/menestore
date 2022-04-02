@@ -128,7 +128,7 @@
   align-items: center;
   min-width: 100%;
   background-color: #EBEBEB;
-  padding: 10em 2em;
+  padding: 8em 2em;
 }
 
 .header .blur{
@@ -263,4 +263,69 @@
   transition: all .3s ease;
 }
 
+.about{
+  display: flex;
+  width: 100%;
+  padding: 5em;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.about img{
+  width: 30%;
+  position: relative;
+  top: 20%;
+  border-radius: .6em;
+  box-shadow: -15px 10px 0px #457B9D;
+  transition: all .3s ease;
+}
+
+.about img:hover{
+  box-shadow: -18px 13px 0px #457B9D;
+  transition: all .3s ease;
+}
+
+.about .text{
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .text h2{
+  position: relative;
+  font-size: 2.2em;
+  color: #E63946;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 2.5em;
+  margin-left: 1rem;
+}
+
+.about .text p{
+  margin-left: 2em;
+  font-size: 1.5em;
+  margin-left: 1.5rem;
+  font-weight: 300;
+}
+
+.about .text a{
+  font-size: 1.5em;
+  align-self: flex-end;
+  margin-top: 25%;  
+  display: flex;
+  color: #457B9D;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.about .text a i{
+  width: 1.5em;
+  margin-left: .2em;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.1em;
+}
+
+.about .text a i svg{
+  width: 1em;
+}
 
