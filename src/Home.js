@@ -35,6 +35,53 @@ export const Home = () => {
                 </svg></i></p>
             </div>
         </div>
+        <div className="seller">
+            <h2>Mas vendidos:</h2>
+            <div className="cardContainer">
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={require("./img/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg")} alt="" />
+                    <div className="info">
+                    <p>Hamburguesa</p>
+                    <p className='price'>1$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div className="about">
             <img src={require("./img/istockphoto-1138671697-612x612.jpg")}/>
             <div className="text">
