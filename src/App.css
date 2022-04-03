@@ -6,6 +6,7 @@
 }
 
 .navbar{
+  position: fixed;
   min-width: 100%;
   background-color: #E63946;
   display: flex;
@@ -16,7 +17,7 @@
   color: #fff;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  z-index: 2;
+  z-index: 2000;
 }
 
 .links{
@@ -52,6 +53,7 @@
 .login a{
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: .5em;
   cursor: pointer;
 }
@@ -59,10 +61,13 @@
 .login a i{
   width: 1.5em;
   padding: .1em 0;
+  display: flex;
+  align-items: flex-end;
 }
 
 .login a i svg{
   width: 1em;
+  margin-bottom: .1em;
 }
 
 .login .signIn{
@@ -230,6 +235,12 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
+  transition: all .3s ease;
+}
+
+.category div:hover{
+  box-shadow: 0px 0px 16px #457b9d27;
+  transition: all .3s ease;
 }
 
 .category div img{
@@ -290,7 +301,13 @@
   margin: 0 1em;
   background-color: #fff;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.11);
+  transition: all .3s ease;
   cursor: pointer;
+}
+
+.seller .card:hover{
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all .3s ease;
 }
 
 .seller .card img{
@@ -321,11 +338,31 @@
 .about{
   display: flex;
   width: 100%;
-  padding: 5em;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  padding: 2em 5em;
+  flex-wrap: wrap;
+  flex-direction: column;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.11);
 }
+
+.about .section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10em;
+}
+
+.about .client{
+  margin-bottom: 5em;
+}
+
+.about .client img{
+  box-shadow: 15px -10px 0px #FFFD99;
+}
+
+.about .client img:hover{
+  box-shadow: 20px -15px 0px #FFFD99;
+}
+
 
 .about img{
   width: 30%;
@@ -337,7 +374,7 @@
 }
 
 .about img:hover{
-  box-shadow: -18px 13px 0px #457B9D;
+  box-shadow: -20px 15px 0px #457B9D;
   transition: all .3s ease;
 }
 
@@ -384,5 +421,13 @@
 
 .about .text a i svg{
   width: 1em;
+}
+
+.footer{
+  overflow: hidden;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
