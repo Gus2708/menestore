@@ -357,6 +357,7 @@
 }
 
 .about .text p{
+  width: 80%;
   margin-left: 2em;
   font-size: 1.5em;
   margin-left: 1.5rem;
