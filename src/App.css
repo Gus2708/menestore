@@ -3,11 +3,15 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
+
+ /* homepage */
 
 .navbar{
   position: fixed;
   min-width: 100%;
+  min-height: fit-content;
   background-color: #E63946;
   display: flex;
   flex-wrap: nowrap;
@@ -16,7 +20,7 @@
   padding: .5em;
   color: #fff;
   font-family: 'Nunito', sans-serif;
-  font-size: 1em;
+  font-size: 1vw;
   z-index: 2000;
 }
 
@@ -35,16 +39,16 @@
 }
 
 .links a i{
-  width: 1.5em;
+  width: 1.5vw;
   padding: .1em 0;
 }
 
 .links a i svg{
-  width: 1em;
+  width: 1vw;
 }
 
 .login{
-  font-size: 1rem;
+  font-size: 1vw;
   width: 20%;
   display: flex;
   justify-content: space-evenly;  
@@ -59,14 +63,14 @@
 }
 
 .login a i{
-  width: 1.5em;
+  width: 1.5vw;
   padding: .1em 0;
   display: flex;
   align-items: flex-end;
 }
 
 .login a i svg{
-  width: 1em;
+  width: 1vw  ;
   margin-bottom: .1em;
 }
 
@@ -159,7 +163,7 @@
 .header h2{
   word-spacing: 1px;
   font-weight: 300;
-  font-size: 4em;
+  font-size: 4vw;
   color: #E63946;
   padding: 1em 0;
   z-index: 1001;
@@ -177,14 +181,14 @@
 }
 
 .header .search input{
-  font-size: 1.2em;
+  font-size: 1.2vw;
   width: 80%;
   padding: .7em;
   border-radius: .6em 0 0 .6em;
 }
 
 .header .search button{
-  width: 3.5em;
+  width: 3.5vw;
   border-radius: 0 .6em .6em 0;
   outline: none;
   border: none;
@@ -195,7 +199,7 @@
 }
 
 .header .search button svg{
-  width: 1.5em;
+  width: 1.5vw;
 }
 
 .location{
@@ -203,19 +207,19 @@
   justify-content: center;
   padding: 1em;
   width: 30%;
-  font-size: 1em;
+  font-size: 1vw;
   color: #EBEBEB;
   cursor: pointer;
   margin-top: .5em;
 }
 
 .location i{
-  width: 1.2em;
+  width: 1.2vw;
   margin-right: .2em;
 }
 
 .location i svg{
-  width: 1.2em;
+  width: 1.2vw;
 }
 
 .category{
@@ -244,12 +248,12 @@
 }
 
 .category div img{
-  width: 25em;
+  width: 25vw;
   transition: all .3s ease;
 }
 
 .category div p{
-  font-size: 2em;
+  font-size: 2vw;
   margin-bottom: 1em;
   font-weight: 300;
   color: #457B9D;
@@ -258,7 +262,7 @@
 }
 
 .category div p i{
-  width: 1em;
+  width: 1vw;
   margin-left: .2em;
   display: flex;
   align-items: flex-end;
@@ -266,12 +270,7 @@
 }
 
 .category div p i svg{
-  width: 1em;
-}
-
-.category div:hover img{
-  width: 25em;
-  transition: all .3s ease;
+  width: 1vw;
 }
 
 .seller{
@@ -285,7 +284,7 @@
 
 .seller h2{
   color: rgba(0, 0, 0, 0.8);
-  font-size: 2em;
+  font-size: 2vw;
   margin-bottom: 1em;
 }
 
@@ -318,12 +317,13 @@
 
 .seller .card .info{
   border-radius: .6em;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   width: 100%;
   padding: .6em 1em;
   display: flex;
   justify-content: space-between;
   font-family: 'Rubik', sans-serif;
+  overflow: hidden;
 }
 
 .seller .card .info p{
@@ -365,7 +365,8 @@
 
 
 .about img{
-  width: 30%;
+  width: 42vw;
+  height: 42vw;
   position: relative;
   top: 20%;
   border-radius: .6em;
@@ -379,6 +380,7 @@
 }
 
 .about .text{
+  height: 42vw;
   padding: 1em 2em;
   display: flex;
   flex-direction: column;
@@ -386,7 +388,7 @@
 
 .about .text h2{
   position: relative;
-  font-size: 2.2em;
+  font-size: 2.2vw;
   color: #E63946;
   font-family: 'Rubik', sans-serif;
   margin-bottom: 2.5em;
@@ -396,13 +398,13 @@
 .about .text p{
   width: 80%;
   margin-left: 2em;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   margin-left: 1.5rem;
   font-weight: 300;
 }
 
 .about .text a{
-  font-size: 1.5em;
+  font-size: 1.5vw;
   align-self: flex-end;
   margin-top: 25%;  
   display: flex;
@@ -412,7 +414,7 @@
 }
 
 .about .text a i{
-  width: 1.5em;
+  width: 1.5vw;
   margin-left: .2em;
   display: flex;
   align-items: flex-end;
@@ -420,10 +422,12 @@
 }
 
 .about .text a i svg{
-  width: 1em;
+  width: 1.5vw;
 }
 
 .footer{
+  width: 100%;
+  font-size: 1vw;
   overflow: hidden;
   padding: 1.5em;
   display: flex;
@@ -431,3 +435,124 @@
   align-items: center;
 }
 
+/* Sign in / Sign up */
+
+.loginPage{
+  width: 100%;
+  height: 100vh;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loginPage .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  padding: 2em;
+  width: 40%;
+  height: 90%;
+  border-radius: .6em;
+  box-shadow: 0px 0px 16px #457b9d33;
+}
+
+.loginPage .svg{
+  width: 45%;
+}
+
+.loginPage .container h2{
+  font-size: 2vw;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  margin-top: .2em;
+  margin-bottom: 1em;
+}
+
+.loginPage .container .form{
+  width: 100%;
+  height: 55%;
+  display: flex;
+  padding: 2em 0;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.loginPage .container .form div{
+  padding: 1.2em;
+  margin-bottom: .5em;
+  font-size: 1.2vw;
+  width: 100%;
+}
+
+.loginPage .container .form div h3{
+  color: #E63946;
+  font-weight: normal;
+  margin-bottom: .5em;
+}
+
+.loginPage .container .form div .textInput{
+  width: 100%;
+  padding: .6em;
+  font-size: 1vw;
+  font-weight: 300;
+  border-radius: .6em;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Rubik', sans-serif;
+  transition: all .3s ease;
+}
+
+.loginPage .container .form div .textInput:hover{
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  transition: all .3s ease;
+}
+
+.loginPage .container .form div .textInput:focus{
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  transition: all .3s ease;
+}
+
+.loginPage .container .buttons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginPage .container .buttons .signInButton{
+  width: 70%;
+  padding: 1em 0;
+  background-color: #E63946;
+  border: none;
+  color: #fff;
+  font-size: 1.2vw;
+  font-family: 'Rubik', sans-serif;
+  border-radius: .6em;
+  cursor: pointer;
+  transition: all .3s ease;
+  margin-top: 1.5em;
+}
+
+.loginPage .container .buttons .signInButton:hover{
+  box-shadow: 0px 0px 10px #e63947c0;
+  transition: all .3s ease;
+}
+
+.loginPage .container .buttons .signInButton:focus{
+  transition: all .3s ease;
+  animation: buttonAnimation 1s infinite;
+}
+
+@keyframes buttonAnimation{
+  0%{
+    box-shadow: 0px 0px 10px #e63947c0;
+  }
+  50%{
+    box-shadow: 0px 0px 15px #e63947c0;
+  }
+  100%{
+    box-shadow: 0px 0px 10px #e63947c0;
+  }
+}
