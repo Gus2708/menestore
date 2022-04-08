@@ -3,6 +3,9 @@
 *{
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Nunito', sans-serif;
 }
 
@@ -88,7 +91,10 @@
 
 .logo{
   margin: 0 1em;
-  font-family: 'Rubik', sans-serif;
+}
+
+.logo h1{
+  font-family: 'Rubik', sans-serif !important;
 }
 
 .search{
@@ -161,16 +167,18 @@
 }
 
 .header h2{
+  font-family: 'Rubik', sans-serif;
   word-spacing: 1px;
   font-weight: 300;
-  font-size: 4vw;
+  font-size: 3.8vw;
   color: #E63946;
   padding: 1em 0;
   z-index: 1001;
 }
 
 .header h2 b{
-  font-weight: 500;
+  font-weight: 800;
+  font-family: 'Rubik', sans-serif;
 }
 
 .header .search{
@@ -262,7 +270,7 @@
 }
 
 .category div p i{
-  width: 1vw;
+  width: 2vw;
   margin-left: .2em;
   display: flex;
   align-items: flex-end;
@@ -270,7 +278,7 @@
 }
 
 .category div p i svg{
-  width: 1vw;
+  width: 2vw;
 }
 
 .seller{
