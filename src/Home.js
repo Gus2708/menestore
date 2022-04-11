@@ -4,7 +4,7 @@ import grocery from "./img/grocery.svg"
 
 export const Home = () => {
   return (
-    <div>
+    <div className='homePage'>
         <div className="header">
             <div className="blur"></div>
             <img className='backgroundImageHeader' src={require("./img/lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg")} alt="" srcset="" />

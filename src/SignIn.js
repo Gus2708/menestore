@@ -3,7 +3,7 @@ import login from "./img/login.svg"
 
 export const SignIn = () => {
   return (
-    <div className='userPage'>
+    <div className='userPage signIn'>
       <div className="svg">
         <img src={login} alt="" srcset="" />
       </div>
